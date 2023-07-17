@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply font-bold text-3xl
+    }
+    h2{
+        @apply font-semibold text-2xl
+    }
+    h3{
+        @apply font-medium text-xl
+    }
+    p{
+        @apply text-xl
+    }
+    button{
+        @apply px-8 py-2 font-medium text-xl text-white border rounded-md m-4 hover:bg-white hover:text-violet-500 transition duration-150 ease-out
+    }
+    li{
+        @apply m-4 hover:cursor-pointer
+    }
+}
+@layer components{
+    .center{
+        @apply w-full min-h-[70vh] flex flex-col justify-center items-center
+    }
+}
