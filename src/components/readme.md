@@ -22,3 +22,10 @@ const headerVariants = {
 };
 
 
+    transition: {
+      repeatType: "mirror",
+      repeat: 5,
+    }
+
+
+    
